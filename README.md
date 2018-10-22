@@ -29,7 +29,7 @@ Servicios WEB Rest, @RestController, @PathVariable,,ResponseEntity, @Entity, JBo
 **Para ejecutar** Desplegad en el servidor. Hay que fijarse en la(s) clase(s) Controller y RestController y hacer las peticiones adHoc para invocar cada proceso. Si son peticiones GET, basta con un navegador en el que indicamos la URL esperada. Para invocar otros servicios lo más cómodo es usar PostMan, Advanced REST o herramientas similares. Las clases de test, con Junit (botón derecho --> Rus as)
 
 
-### Otros repositorio de referencia
+### Otros repositorios de referencia
 
 -https://github.com/Valexx55/SpringGit5 (demos aop, testing)
 -https://github.com/Valexx55/SPRING-AVANZADO-2017/tree/master/springbasics1 (IOC, DI, Spring en JSE)
