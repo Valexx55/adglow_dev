@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean id="imcservice" class="imcdf.IMC"/>
+	
+	<!-- USANDO EL CONSTRUCTOR -->
+	<!--
+	<bean id="persona" class="imcdf.Persona">
+		<constructor-arg ref="imcservice"></constructor-arg>
+		<property name="peso" value="80" />
+		<property name="altura" value="1.90" />
+	</bean> -->
+	
+	<!-- USANDO LA INYECCIÓN POR SET
+	observación: uso ref si es un tipo (objeto)
+	value si es un valor directamente -->
+	<bean id="persona" class="imcdf.Persona">
+		<property name="imc" ref="imcservice"/>
+		<property name="peso" value="80" />
+		<property name="altura" value="1.90" />
+	</bean>
+	
+	
+
+</beans>
