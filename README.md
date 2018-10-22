@@ -48,5 +48,5 @@ Servicios WEB Rest, @RestController, @PathVariable,,ResponseEntity, @Entity, JBo
 
 ### Agradecimientos
 
-A DevAcademy, a todo el equipo @github/adlgow y especialmente todos los asistentes, por su actitud y su trato hacia mi persona durante el curso.
+A DevAcademy, a todo el equipo @github/adlgow y especialmente todos los asistentes, por su actitud y su trato hacia mi persona durante el curso :+1: :+1:
 
