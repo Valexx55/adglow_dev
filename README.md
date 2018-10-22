@@ -8,20 +8,23 @@ JDK 8, Apache Tomcat 7.x, MySql 5.x
 
 # Proyecto adglowjse
 
-## Conceptos vistos: IOC, DI, JCONFIG, CONTEXTO, @Autowired, @Component, TDD, @Test, @RunWith, Test unitarios e integrales
+## Conceptos vistos 
+IOC, DI, JCONFIG, CONTEXTO, @Autowired, @Component, TDD, @Test, @RunWith, Test unitarios e integrales
 
 **Para ejecutar** Buscad las clases Main en sus respectivos paquetes. Las clases de test, con Junit (botón derecho --> Rus as)
 
 # Proyecto adglowjee
 
-## Conceptos vistos: AOP, ViewResolver, Model, @Controller, @Service, @Repository, @ResquestMapping, @RequestBody, @ResponseBody, @Transactional, HTTP, MockMvc, @ContextConfiguration
+## Conceptos vistos
+AOP, ViewResolver, Model, @Controller, @Service, @Repository, @ResquestMapping, @RequestBody, @ResponseBody, @Transactional, HTTP, MockMvc, @ContextConfiguration
 
 **Para ejecutar** Hay que fijarse en la clase Controller y hacer las peticiones adHoc para invocar cada proceso. Si son peticiones GET, basta con un navegador en el que indicamos la URL esperada. Para invocar otros servicios lo más cómodo es usar PostMan o Advanced REST. Las clases de test, con Junit (botón derecho --> Rus as)
 
 
 # Proyecto adglowrest
 
-## Conceptos vistos: Servicios WEB Rest, @RestController, @PathVariable,,ResponseEntity, @Entity, JBossTools, Hibernate, JPA, @Valid, @Pattern, i18n, EntityManager, DTO, @JsonIgnore, HQL, NamedQuery, CascadeType, ID AutoIncremento vs Secuencia,FetchType, Mock, Test Suite
+## Conceptos vistos
+Servicios WEB Rest, @RestController, @PathVariable,,ResponseEntity, @Entity, JBossTools, Hibernate, JPA, @Valid, @Pattern, i18n, EntityManager, DTO, @JsonIgnore, HQL, NamedQuery, CascadeType, ID AutoIncremento vs Secuencia,FetchType, Mock, Test Suite
 
 **Para ejecutar** Hay que fijarse en la(s) clase(s) Controller y RestController y hacer las peticiones adHoc para invocar cada proceso. Si son peticiones GET, basta con un navegador en el que indicamos la URL esperada. Para invocar otros servicios lo más cómodo es usar PostMan, Advanced REST o herramientas similares. Las clases de test, con Junit (botón derecho --> Rus as)
 
