@@ -1,6 +1,6 @@
 # Repositorio Formación Java ADGLOW 2018 
 
-Este repositorio alberga Slos ejemplos prácticos desarrollados durante el curso así como la documentación teórica.
+Este repositorio alberga los ejemplos prácticos desarrollados durante el curso así como la documentación teórica.
 
 ### Requisitos
 
@@ -11,7 +11,7 @@ JDK 8, Apache Tomcat 7.x, MySql 5.x
 ## Conceptos vistos 
 IOC, DI, JCONFIG, CONTEXTO, @Autowired, @Component, TDD, @Test, @RunWith, Test unitarios e integrales
 
-**Para ejecutar** Buscad las clases Main en sus respectivos paquetes. Las clases de test, con Junit (botón derecho --> Rus as)
+**Para ejecutar** Buscad las clases Main en sus respectivos paquetes. Las clases de test, con Junit (botón derecho --> Run as)
 
 # Proyecto adglowjee
 
@@ -31,9 +31,9 @@ Servicios WEB Rest, @RestController, @PathVariable,,ResponseEntity, @Entity, JBo
 
 ### Otros repositorio de referencia
 
-*https://github.com/Valexx55/SpringGit5 (demos aop, testing)
-*https://github.com/Valexx55/SPRING-AVANZADO-2017/tree/master/springbasics1 (IOC, DI, Spring en JSE)
-*https://github.com/Valexx55/SPRING-AVANZADO-2017/tree/master/springbasics2 (Spring en JEE con Servlets)
+-https://github.com/Valexx55/SpringGit5 (demos aop, testing)
+-https://github.com/Valexx55/SPRING-AVANZADO-2017/tree/master/springbasics1 (IOC, DI, Spring en JSE)
+-https://github.com/Valexx55/SPRING-AVANZADO-2017/tree/master/springbasics2 (Spring en JEE con Servlets)
 
 
 ### Documentación
